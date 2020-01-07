@@ -1,0 +1,12 @@
+Kernel linux merupakan interface yang menghubungkan software dengan hardware. Dengan bantuan kernel inilah software dapat mengakses fungsionalitas hardware. Cara mengetahui masuk ke direktori kernel dengan command (cd /lib/modules/$(uname -r)/kernel).
+File-file yang berada di dalam folder kernel adalah :
+1. arch : Menyimpan seluruh code tentang arsitektur SO
+2. drivers : Berperan untuk mendeteksi hardware yang bisa diakses oleh
+3. lib
+4. net
+5. sound
+6. crypto
+7. fs
+8. mm
+9. security
+10. virt

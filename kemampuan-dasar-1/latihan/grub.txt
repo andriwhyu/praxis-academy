@@ -1,0 +1,3 @@
+1. Manjaro Linux : Manjaro linux adalah pilihan grub untuk memulai booting dari SO Manjaro
+2. Advanced Options for manjaro linux : Opsi ini digunakan untuk setting lebih lanjut dari OS manjaro. Biasanya digunakan jika terjadi error pada saat booting ke manjaro
+3. Windows Boot Manager : Opsi agar masuk ke OS Windows. Pilihan ini ada ketika laptop kita berada pada kondisi Dual Boot
