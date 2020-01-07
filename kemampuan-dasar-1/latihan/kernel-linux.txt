@@ -2,11 +2,11 @@ Kernel linux merupakan interface yang menghubungkan software dengan hardware. De
 File-file yang berada di dalam folder kernel adalah :
 1. arch : Menyimpan seluruh code tentang arsitektur SO
 2. drivers : Berperan untuk mendeteksi hardware yang bisa diakses oleh
-3. lib
-4. net
-5. sound
-6. crypto
-7. fs
-8. mm
-9. security
-10. virt
+3. lib : Berisi code yang sering digunakan secara global
+4. net : Berisi code yang bersifat high-level
+5. sound : Berisi driver untuk hardware sound dan yang berhubungan dengannya.
+6. crypto : Berisi cryptographic API yang akan digunakan oleh kernel
+7. fs : Berisi code mengenai generic filesystem yang menghandle penggunaan filesystem yang berbeda.
+8. mm : Berisi code high-level memory management
+9. security : Berisi code agar dapat menjaga keamanan SO linux.
+10. virt : Berisi code yang berfungsi mengekstraksi kernel dan RAM dari guests
