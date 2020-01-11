@@ -27,12 +27,12 @@ Berdasarkan pengalaman saya terjadi syntax error pada saat pertama kali men-gene
 
 Perubahan di folder **bin**
 
-![Perubahan pada folder bin](../../../img/Stagehand-1.png)
+![Perubahan pada folder bin](../../img/Stagehand-1.png)
 
 Berikut perubahan pada **lib**
 
-![Perubahan pada folder lib](../../../img/Stagehand-2.png)
+![Perubahan pada folder lib](../../img/Stagehand-2.png)
 
 Berikut adalah direktori hasil menjalankan program Stagehand 
 
-![Direktori program Stagehand](../../../img/Stagehand-3.png)
+![Direktori program Stagehand](../../img/Stagehand-3.png)
