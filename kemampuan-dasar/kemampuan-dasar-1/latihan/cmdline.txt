@@ -1,0 +1,117 @@
+1. Command : ls
+	Hasil :
+		Arduino            image-processing
+		fira-robocup-2020  master-ersb-2019
+		image-process
+
+2. Command : ls -al
+	Hasil :
+		drwxr-xr-x 1 andri andri 152 Des  3 08:02 .
+		drwxr-xr-x 1 andri andri 316 Jan  7 12:51 ..
+		drwxr-xr-x 1 andri andri  70 Mei 12 2019 Arduino
+		drwxr-xr-x 1 andri andri 108 Okt 31 14:01 fira-robocup-2020
+		drwxr-xr-x 1 andri andri 876 Jan  6 22:49 image-process
+		drwxr-xr-x 1 andri andri 810 Feb 25 2019 image-processing
+		drwxr-xr-x 1 andri andri  32 Jun 27 2019 master-ersb-2019
+		drwxr-xr-x 1 andri andri  26 Feb 14 2019 .vscode
+		
+3. Command : ls -a
+	Hasil :
+	.        fira-robocup-2020  master-ersb-2019
+	..       image-process      .vscode
+	Arduino  image-processing
+
+4. Command : cat > praxis_exercise
+			"Welcome to Praxis Exercise"
+			Crtl+d
+			cat praxis_exercise
+	
+	Hasil :
+	Welcome to Praxis Exercise
+	
+5. Command : rm willbedeleted
+	Hasil :
+	Isi direktori sebelum menggunakan command rm
+		Arduino            master-ersb-2019
+		fira-robocup-2020  praxis_exercise
+		image-process      willbedeleted
+		image-processing
+	
+	Setelah menggunakan command rm
+		Arduino            image-processing
+		fira-robocup-2020  master-ersb-2019
+		image-process      praxis_exercise
+		
+
+6. Command : mv praxis_exercise praxis_academy
+	Hasil :
+	Sebelum menjalankan command
+		Arduino            image-processing
+		fira-robocup-2020  master-ersb-2019
+		image-process      praxis_exercise
+		
+	Setelah menjalankan command
+		Arduino            image-processing
+		fira-robocup-2020  master-ersb-2019
+		image-process      praxis_academy
+
+7. Command : mkdir directory_praxis
+	Hasil :
+	Sebelum menjalankan command
+		Arduino            image-processing
+		fira-robocup-2020  master-ersb-2019
+		image-process      praxis_academy
+	
+	Setelah menjalankan command
+		Arduino            image-processing
+		directory_praxis   master-ersb-2019
+		fira-robocup-2020  praxis_academy
+		image-process
+
+8. Command : rmdir directory_praxis
+	Hasil :
+	Sebelum menjalankan command
+		Arduino            image-processing
+		directory_praxis   master-ersb-2019
+		fira-robocup-2020  praxis_academy
+		image-process
+	
+	Setelah menjalankan command
+		Arduino            image-processing
+		fira-robocup-2020  master-ersb-2019
+		image-process      praxis_academy
+		
+9. Command : history
+	Hasil :
+	...
+	512  cat > praxis_exercise
+	513  cat praxis_exercise 
+	514  cat > willbedeleted
+	515  cat willbedeleted 
+	516  ls
+	517  rm willbedeleted 
+	518  ls
+	519  mv praxis_exercise praxis_academy
+	520  ls
+	521  mkdir directory_praxis
+	522  ls
+	523  rmdir directory_praxis/
+	524  ls
+	525  history
+	
+10. Command : pr -n praxis_academy
+	Hasil :
+	1	Welcome to Praxis Exercise
+    2	Januari
+    3	Februari
+    4	Maret
+    5	April
+    6	Mei
+    7	Juni
+    8	July
+    9	Agustus
+   10	September
+   11	Oktober
+   12	November
+   13	Desember
+
