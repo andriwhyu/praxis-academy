@@ -1,4 +1,4 @@
-Kernel linux merupakan interface yang menghubungkan software dengan hardware. Dengan bantuan kernel inilah software dapat mengakses fungsionalitas hardware. Cara mengetahui masuk ke direktori kernel dengan command (cd /lib/modules/$(uname -r)/kernel).
+Kernel linux merupakan interface yang menghubungkan software dengan hardware. Dengan bantuan kernel inilah software dapat mengakses fungsionalitas hardware. Cara mengetahui folder yang ada di kernel yaitu dengan masuk ke direktori kernel menggunakan command (cd /lib/modules/$(uname -r)/kernel).
 File-file yang berada di dalam folder kernel adalah :
 1. arch : Menyimpan seluruh code tentang arsitektur SO
 2. drivers : Berperan untuk mendeteksi hardware yang bisa diakses oleh
